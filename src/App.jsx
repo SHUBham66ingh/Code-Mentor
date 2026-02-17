@@ -6,6 +6,7 @@ import NewChat from "./pages/NewChat";
 import Explore from "./pages/Explore";
 import Header from "./components/Header";
 import DashBoard  from "./pages/DashBoard";
+import AboutPage from "./pages/AboutPage";
 
 export default function App() {
   const [open, setOpen] = useState(false);
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/" element={<DashBoard></DashBoard>}></Route>
           <Route path='/dashboard' element={<DashBoard/>}></Route>
           <Route path="/explore" element={<Explore />}/>
+          <Route path="/about" element={<AboutPage/>}/>
         </Routes>
       </div>
     </div>
