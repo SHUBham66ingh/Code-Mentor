@@ -24,13 +24,7 @@ export default function Sidebar({ open }) {
           </Link>
         </li>
 
-        <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/saved" className="flex items-center gap-4">
-            <History size={26} />
-            History
-          </Link>
-        </li>
-
+  
         <li className="hover:text-blue-500 cursor-pointer">
           <Link to="/setting" className="flex items-center gap-4">
             <Settings size={26} />
