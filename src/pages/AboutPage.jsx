@@ -4,7 +4,6 @@ import { Sparkles, Brain, ShieldCheck, Zap } from "lucide-react";
 export default function About() {
   return (
     <div className="min-h-screen bg-black text-white px-6 md:px-16 py-20">
-
       {/* Hero Section */}
       <div className="text-center max-w-4xl mx-auto mb-20">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
