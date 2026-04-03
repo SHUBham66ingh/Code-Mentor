@@ -89,10 +89,7 @@ export default function Dashboard() {
       </p>
       <h3 className="text-white text-3xl font-extrabold mt-2">6+</h3>
     </div>
-  </div>
-
-              
-             
+  </div>       
             </div>
 
           
